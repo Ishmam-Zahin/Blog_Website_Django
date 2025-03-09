@@ -1,0 +1,82 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Django-specific
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# If using MySQL, PostgreSQL, or other databases, ignore their local database files
+*.sqlite3
+*.pyo
+
+# Ignore .env files that store secrets
+.env
+.env.*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Migrations (optional - only ignore if you want to regenerate them)
+# **/migrations/*.py
+# **/migrations/*.pyc
+
+# Compiled static files
+static/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+.cache
+nosetests.xml
+coverage.xml
+
+# pip dependency logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Docker
+*.pid
+*.sock
+.dockerignore
+
+# Python virtual environment created by poetry
+.poetry/
+
+# Gunicorn logs
+gunicorn.log
+
+# pytest cache
+.pytest_cache/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ignore node_modules if using npm/yarn for frontend
+node_modules/
+
+# Ignore compiled translation files
+*.mo
+
+# Ignore macOS system files
+.DS_Store
